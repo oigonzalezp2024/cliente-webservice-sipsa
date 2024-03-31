@@ -96,7 +96,7 @@ Abastecimientos - La información se genera con una periodicidad mensual,
 | Retorna los valores máximo, mínimo y <br> promedio parcial de recolección de un <br> producto, discriminando los datos de la <br> ubicación y la fuente. | |
 | promediosSipsaCiudad()        | py promediosSipsaCiudad.py |
 | Retorna los valores promedios<br> de cada producto por ciudad. | |
-| promediosSipsaMesMad()        | py promediosSipsaMesMad.py |
+| promediosSipsaMesMadr()        | py promediosSipsaMesMadr.py |
 | Retorna las cantidades máxima,<br> mínima y promedio mensual en Kg <br> de la recolección de un <br>producto, discriminando los <br>datos de la fuente. | |
 
 ***
