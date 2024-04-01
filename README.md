@@ -13,11 +13,18 @@ de la Webservice SIPSA mendiante la
 de la Webservice SIPSA que aparece en el 
 [servicio web para consulta de la base de datos de sipsa](https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/servicio-web-para-consulta-de-la-base-de-datos-de-sipsa "WSDL de Webservice SIPSA").
 
+Mejora:
+<ul>
+    <li>
+        Ahora permite extraer la data en CSV, XML y Json, basta con definir el formato en el nombre del archivo destino.
+    </li>
+</ul>
+
 ## Procesos ETL
 <ol>
     <li>Extrae los datos de su origen usando la librería Zeep. </li>
     <li>Transforma los datos que recibe de formato XML a objetos python.</li>
-    <li>Almacena los datos en archivos planos en formato Json. </li>
+    <li>Almacena los datos en archivos planos en formato CSV, XML o JSON. </li>
 </ol>
 
 > La data recogida se almacenará en la carpeta data.
@@ -74,9 +81,10 @@ Abastecimientos - La información se genera con una periodicidad mensual,
 ***
 
 ### Librerías del proyecto.
-| librerías a instalar  | Descripción | Comando                                 |
-| :----                 | :---        | :---                                    |
-| zeep                  | Permite el acceso a SOAP | python -m pip install zeep |
+| librería  | Descripción              | Comando                           |
+| :----     | :---                     | :---                              |
+| zeep      | Permite el acceso a SOAP | python -m pip install zeep        |
+| zeep      | Permite el acceso a SOAP | python -m pip install xmltodict   |
 
 ---
 
