@@ -10,7 +10,7 @@ usando la librería [Zeep](https://pypi.org/project/zeep/ "librería Zeep")
 para acceder al servicio [SOAP](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol "Simple Object Access Protocol") 
 de la Webservice SIPSA mendiante la 
 [WSDL](https://appweb.dane.gov.co/sipsaWS/SrvSipsaUpraBeanService?WSDL "WSDL de Webservice SIPSA")
-de la Webservice SIPSA que aparece en el 
+que aparece en el 
 [servicio web para consulta de la base de datos de sipsa](https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/servicio-web-para-consulta-de-la-base-de-datos-de-sipsa "WSDL de Webservice SIPSA").
 
 Mejora:
