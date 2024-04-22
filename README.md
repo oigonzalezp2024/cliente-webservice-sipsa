@@ -84,7 +84,7 @@ Abastecimientos - La información se genera con una periodicidad mensual,
 | librería  | Descripción              | Comando                           |
 | :----     | :---                     | :---                              |
 | zeep      | Permite el acceso a SOAP | python -m pip install zeep        |
-| zeep      | Permite el acceso a SOAP | python -m pip install xmltodict   |
+| xmltodict | Permite el acceso a SOAP | python -m pip install xmltodict   |
 
 ---
 
